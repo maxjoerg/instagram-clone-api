@@ -25,7 +25,8 @@ origins = [
   'http://localhost:3000',
   'http://localhost:3001',
   'http://localhost:3002',
-  'https://8000-943de7fb-6564-44eb-800c-dcc4c7d84338.cs-us-east1-pkhd.cloudshell.dev'
+  'https://8000-943de7fb-6564-44eb-800c-dcc4c7d84338.cs-us-east1-pkhd.cloudshell.dev',
+  'https://accounts.google.com'
 ]
 
 app.add_middleware(
