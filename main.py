@@ -6,7 +6,7 @@ from db.database import engine
 from routers import user, post, comment
 from fastapi.staticfiles import StaticFiles
 from auth import authentication
-from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.cors import CORSMiddleware
 
 
 app = FastAPI()
