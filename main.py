@@ -38,11 +38,11 @@ app.add_middleware(
         "Accept",
         "X-Requested-With",
       #  "Content-Type",
-        "Access-Control-Request-Method",
+      #  "Access-Control-Request-Method",
       #  "Access-Control-Request-Headers",
      #   "Access-Control-Allow-Origin",
      #   "Access-Control-Allow-Methods"
-        "Authorization",
+     #   "Authorization",
         "X-Amz-Date",
         "X-Api-Key",
         "X-Amz-Security-Token"
